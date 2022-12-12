@@ -17,7 +17,7 @@ xlsxFile('./students.xlsx').then((rows) => {
 });
 
 app.use(cors({
-  origin: 'http://127.0.0.1:5500'
+  origin: 'https://mohamadalasaed.github.io/web0Project/'
 }));
 app.use(bodyParser.json());
 
